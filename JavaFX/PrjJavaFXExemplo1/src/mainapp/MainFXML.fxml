@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="186.0" prefWidth="291.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainapp.MainFXMLController">
+   <children>
+      <Label layoutX="32.0" layoutY="30.0" text="Primeiro Nome:" />
+      <Label layoutX="42.0" layoutY="70.0" text="Último Nome:" />
+      <Label fx:id="lblNomeCompleto" layoutX="30.0" layoutY="137.0" text="Nome completo:" />
+      <Button fx:id="btnOk" layoutX="178.0" layoutY="103.0" mnemonicParsing="false" onAction="#handleBtnOk" text="Ok" />
+      <Button fx:id="btnLimpar" layoutX="215.0" layoutY="103.0" mnemonicParsing="false" onAction="#handleBtnLimpar" text="Limpar" />
+      <TextField fx:id="tfPrimeiroNome" layoutX="119.0" layoutY="26.0" />
+      <TextField fx:id="tfUltimoNome" layoutX="119.0" layoutY="66.0" />
+   </children>
+</AnchorPane>
