@@ -49,7 +49,7 @@ public class MainFXMLController implements Initializable {
                 + primeiroNome + " " + ultimoNome);
         Alert alert = new Alert(AlertType.INFORMATION);
         alert.setContentText("Nome completo: "
-                + primeiroNome + "\n " + ultimoNome);
+                + primeiroNome + " " + ultimoNome);
         alert.show();
     }
 
