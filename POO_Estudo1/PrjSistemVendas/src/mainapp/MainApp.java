@@ -18,12 +18,18 @@ public class MainApp {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Categoria c1 = new Categoria();
-        Categoria c2 = new Categoria();
-        c1.setId(1);
+        Categoria c1 = new Categoria(1);
+        //c1.setId(1);
         c1.setDescricao("Vestuario");
-        c2.setId(2);
-        c2.setDescricao("Acessórios");
+//              
+        
+        Categoria c2 = new Categoria(2, "Acessórias");
+//        c2.setId(2);
+//        c2.setDescricao("Acessórios");
+
+        Categoria c3 = new Categoria();
+        c3.setId(3);
+        c3.setDescricao("Calçados");
         
         Produto p1 = new Produto();
         p1.setId(1);
