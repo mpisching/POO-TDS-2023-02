@@ -18,6 +18,7 @@ public class MainApp {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        List
         Categoria c1 = new Categoria(1);
         //c1.setId(1);
         c1.setDescricao("Vestuario");
