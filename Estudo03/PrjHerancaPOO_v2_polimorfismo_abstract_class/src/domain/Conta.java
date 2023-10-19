@@ -8,7 +8,7 @@ package domain;
  *
  * @author mpisc
  */
-public class Conta {
+public abstract class Conta {
     private int numero;
     private float saldo;
     private String dataAbertura;

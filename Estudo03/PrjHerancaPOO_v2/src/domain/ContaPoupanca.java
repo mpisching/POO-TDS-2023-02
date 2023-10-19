@@ -11,7 +11,12 @@ package domain;
 public class ContaPoupanca extends Conta {
     private int diaAniversario;
     private int variacao;
-        
+    /*isso é a relação por associação de classes
+     Neste contexto é incorreto dizer que ContaPoupanca possui        uma Conta
+    ContaPoupanca herda de Conta, por isso a relação se
+    a por meio da palavra reservada extends*/
+    //private Conta conta;
+    
     public int getDiaAniversario() {
         return diaAniversario;
     }

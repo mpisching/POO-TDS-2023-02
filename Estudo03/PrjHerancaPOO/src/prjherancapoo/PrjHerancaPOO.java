@@ -25,7 +25,7 @@ public class PrjHerancaPOO {
         cc.setTaxaJuro(10);
         
         System.out.println("Conta corrente: " + cc.toString());
-        
+                
         ContaPoupanca cp = new ContaPoupanca();
         cp.setNumero(11);
         cp.setDataAbertura("10/10/2020");
