@@ -12,6 +12,15 @@ public class ContaCorrente extends Conta {
     private float limite;
     private float taxaJuro;
 
+    public ContaCorrente(float limite, float taxaJuro, int numero, float saldo, String dataAbertura) {
+        super(numero, saldo, dataAbertura);
+        this.limite = limite;
+        this.taxaJuro = taxaJuro;
+    }
+
+    public ContaCorrente() {
+    }
+    
     public float getLimite() {
         return limite;
     }

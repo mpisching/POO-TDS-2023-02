@@ -13,6 +13,16 @@ public abstract class Conta {
     private float saldo;
     private String dataAbertura;
 
+    public Conta(int numero, float saldo, String dataAbertura) {
+        this.numero = numero;
+        this.saldo = saldo;
+        this.dataAbertura = dataAbertura;
+    }
+
+    public Conta() {
+    }
+    
+    
     public int getNumero() {
         return numero;
     }

@@ -16,6 +16,17 @@ public class ContaPoupanca extends Conta {
     ContaPoupanca herda de Conta, por isso a relação se
     a por meio da palavra reservada extends*/
     //private Conta conta;
+
+    public ContaPoupanca(int diaAniversario, int variacao, int numero, float saldo, String dataAbertura) {
+        super(numero, saldo, dataAbertura);
+        this.diaAniversario = diaAniversario;
+        this.variacao = variacao;
+    }
+
+    public ContaPoupanca() {
+    }
+    
+    
     
     public int getDiaAniversario() {
         return diaAniversario;
